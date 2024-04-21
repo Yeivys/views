@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@color/light_blue">
+
+<!--        <TextView
+                android:id="@+id/text_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello_text"
+                android:textStyle="bold"
+                android:textSize="18sp"
+        />
+
+        <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/mexicanPink"
+                android:text="@string/accept_button"
+                android:layout_marginTop="48dp"
+        /> -->
+
+        <EditText
+                android:id="@+id/editText1"
+                android:hint="@string/name"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginHorizontal="24dp"
+                android:inputType="text"
+                android:drawableStart="@drawable/boy"
+                android:drawablePadding="12dp"
+                android:minHeight="48dp" android:autofillHints=""/>
+
+        <EditText
+                android:id="@+id/editText2"
+                android:hint="@string/last_name"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginHorizontal="24dp"
+                android:inputType="text"
+                android:drawableStart="@drawable/boy"
+                android:drawablePadding="12dp"
+                android:minHeight="48dp" android:autofillHints=""/>
+        <EditText
+                android:id="@+id/editText3"
+                android:hint="@string/phone"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:maxLength="10"
+                android:layout_marginHorizontal="24dp"
+                android:inputType="phone"
+                android:drawableStart="@drawable/phone"
+                android:drawablePadding="12dp"
+                android:minHeight="48dp" android:autofillHints=""/>
+        <EditText
+                android:id="@+id/editText4"
+                android:hint="@string/email"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:maxLength="120"
+                android:layout_marginHorizontal="24dp"
+                android:inputType="text"
+                android:drawableStart="@drawable/email"
+                android:drawablePadding="12dp"
+                android:minHeight="48dp" android:autofillHints=""/>
+        <Button
+                android:text="@string/accept_button"
+                android:id="@+id/button"
+                android:textColor="@color/white"
+                android:background="@color/purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="16dp"
+                />
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:visibility="invisible"/>
+
+</LinearLayout>
